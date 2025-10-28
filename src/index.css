@@ -1,8 +1,20 @@
 :root {
 
-  --principal: #1a1a1a; /* Vaiable a la que se le asigna el color principal */
+  --principal: #ffffff; /* Vaiable a la que se le asigna el color principal */
   --secundario: #2134c4;
   --text-principal: #ffffff;
 
 
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--principal);
+  color: var(--text-principal);
 }

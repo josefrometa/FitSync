@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
+import { Home } from './components/Home.jsx';
+import { Services } from './components/Services.jsx';
 import About from './pages/About'
 
 function App() {
@@ -13,6 +15,15 @@ function App() {
 
   return (
     <>
+   
+    <Home/>
+
+      
+    <Navbar/>
+
+    <Services />
+
+
       <Navbar />
       <main>
         <About />
