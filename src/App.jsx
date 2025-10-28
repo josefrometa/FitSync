@@ -3,10 +3,11 @@ import './App.css'
 import Navbar from './components/Navbar';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0) 
+  // usestate 
 
   useEffect(() => {
-    console.log( `You clicked ${count} times`);
+    // useEffect es para usar javascript puro directo y código que se ejecuta después del renderizado
   }, [count])
 
   return (
