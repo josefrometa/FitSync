@@ -1,5 +1,13 @@
 @import '../index.css';
+/* Reset básico de márgenes (no usar * para aplicar fondo global, eso bloquea fondos de componentes) */
 *{
     margin: 0;
-    background: var(--principal); /* Color que se trae de index.css */
+}
+
+/* Aplicar el fondo de la página al body en lugar de al selector universal.
+   De este modo los componentes con clases específicas (ej. .Home) pueden
+   pintar su propio background sin ser 'tapados' por una regla universal. */
+body{
+    background: var(--principal);
+    min-height: 100vh;
 }
