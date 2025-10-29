@@ -1,0 +1,19 @@
+.Payment-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.Payment-content{
+    background: var(--reverse-principal);
+    width: max-content;
+}
+.Payment-content p{
+    color: var(--text-secundario);
+    
+}
+.Payment-content h2{
+    text-transform: uppercase;
+    font-size: 70px;
+}
