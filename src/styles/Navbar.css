@@ -7,7 +7,3 @@
 /* Aplicar el fondo de la página al body en lugar de al selector universal.
    De este modo los componentes con clases específicas (ej. .Home) pueden
    pintar su propio background sin ser 'tapados' por una regla universal. */
-body{
-    background: var(--principal);
-    min-height: 100vh;
-}

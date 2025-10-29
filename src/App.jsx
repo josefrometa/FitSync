@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar';
 import { Home } from './components/Home.jsx';
 import { Services } from './components/Services.jsx';
+import Payment from './components/Payment.jsx';
 
 function App() {
   const [count, setCount] = useState(0) 
@@ -21,7 +22,8 @@ function App() {
     <Navbar/>
 
     <Services />
-
+    
+    <Payment/>
 
     </>
   )
