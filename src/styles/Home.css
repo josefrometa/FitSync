@@ -1,19 +1,14 @@
 .Home{
     display: flex;
     flex-direction: column;
-    height: 80vh;
-    width: 200vh;
+    min-height: 80vh;
     background-image: url("/public/img/gym_home1.jpg");
     background-size: cover;
     background-position: center;
 
     /* romper el contenedor centrado para ocupar todo el viewport */
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-    width: 100vw;
+    
+    width: 100%;
     box-sizing: border-box;
     align-items: stretch;
     padding: 2rem;

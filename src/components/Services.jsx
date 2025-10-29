@@ -1,6 +1,7 @@
 import { FaDumbbell, FaMugHot, FaShower, FaHeartbeat } from 'react-icons/fa'; 
 import '../styles/Services.css'
 
+// Componente para cada Tarjeta de Servicio
 const ServiceCard = ({ IconComponent, title, description }) => (
   <div className="service-card">
     <div className="service-icon">

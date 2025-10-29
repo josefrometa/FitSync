@@ -2,9 +2,9 @@
 
   --principal: #ffffff; /* Vaiable a la que se le asigna el color principal */
   --secundario: #2134c4;
-  --text-principal: #ffffff;
-
-
+  --text-principal: #1a1a1a;
+  --reverse-principal: #1a1a1a;
+  --text-secundario: #ffffff;
 }
 
 body {
