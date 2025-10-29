@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './components/Navbar';
+import { Home } from './components/Home.jsx';
+import { Services } from './components/Services.jsx';
 
 function App() {
   const [count, setCount] = useState(0) 
@@ -12,7 +14,15 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+   
+    <Home/>
+
+      
+    <Navbar/>
+
+    <Services />
+
+
     </>
   )
 }
