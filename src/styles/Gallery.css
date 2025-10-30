@@ -19,9 +19,10 @@
 .gallery-images img{
     max-width: 20rem;
     width: 100%;
+    transition: transform 0.3s ease-in-out;
 }
 .gallery-images img:hover{
     transform: scale(1.05);
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
     cursor: pointer;
 }
