@@ -4,7 +4,9 @@
   --secundario: #2134c4;
   --text-principal: #1a1a1a;
   --reverse-principal: #1a1a1a;
-  --text-secundario: #ffffff;
+  --text-secundario: rgba(255, 255, 255, 0.6);
+  --color-especial: #ff6363;
+
 }
 
 body {

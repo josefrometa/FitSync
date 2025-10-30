@@ -3,10 +3,9 @@ import './App.css'
 import Navbar from './components/Navbar';
 import { Home } from './components/Home.jsx';
 import { Services } from './components/Services.jsx';
-
-import About from './components/About'
-
 import Payment from './components/Payment.jsx';
+import Gallery from './components/Gallery.jsx';
+import About from './components/About'
 
 
 function App() {
@@ -27,12 +26,12 @@ function App() {
 
     <Services />
     
-    <Payment/>
+    <Payment />
 
-      <Navbar />
-      <main>
-        <About />
-      </main>
+    <Gallery />
+    
+    <About />
+    
     </>
   )
 }
