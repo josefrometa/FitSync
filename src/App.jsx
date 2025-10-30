@@ -7,6 +7,7 @@ import { Services } from './components/Services.jsx';
 import About from './components/About'
 
 import Payment from './components/Payment.jsx';
+import Footer from './components/Footer.jsx';
 
 
 function App() {
@@ -19,20 +20,20 @@ function App() {
 
   return (
     <>
-   
-    <Home/>
 
-      
-    <Navbar/>
+   <Navbar/>
+
+    <Home/>
 
     <Services />
     
     <Payment/>
 
-      <Navbar />
       <main>
         <About />
       </main>
+
+      <Footer />
     </>
   )
 }
